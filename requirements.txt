@@ -1,0 +1,8 @@
+crewai 
+unstructured ==0.10.25
+pyowm
+python-dotenv
+streamlit
+langchain
+request
+pydantic 
