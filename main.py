@@ -4,7 +4,6 @@ from trip_agents import TripAgents
 from trip_tasks import TripTasks
 import warnings
 from dotenv import load_dotenv
-
 warnings.filterwarnings('ignore')
 load_dotenv()
 

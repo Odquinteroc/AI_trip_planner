@@ -1,20 +1,15 @@
 from crewai import Agent
-
 from tools.browser_tools import BrowserTools
 from tools.calculator_tools import CalculatorTools
 from tools.search_tools import SearchTools
 from crewai import LLM
 
 
-
-
 class TripAgents():
   def __init__(self):
     self.llama = LLM(
     model="gemini/gemini-2.0-flash",
-    temperature=0.7,
- 
-)
+    temperature=0.7,)
 
   def city_selection_agent(self):
     return Agent(

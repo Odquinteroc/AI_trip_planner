@@ -1,9 +1,7 @@
 import json
 import os
-
 import requests
 from langchain.tools import tool
-
 
 class SearchTools():
 
@@ -33,5 +31,5 @@ class SearchTools():
           ]))
         except KeyError:
           next 
-
+          
       return '\n'.join(string)
